@@ -1,0 +1,28 @@
+{
+  "appIsExample": false,
+  "appLayout": {
+    "type": "DESKTOP"
+  },
+  "applicationVersion": 2,
+  "collapseInvisibleWidgets": true,
+  "color": "#C7F3E3",
+  "evaluationVersion": 2,
+  "icon": "location",
+  "pages": [
+    {
+      "id": "Usuários de um Local",
+      "isDefault": true
+    },
+    {
+      "id": "Under Construction",
+      "isDefault": false
+    },
+    {
+      "id": "Locais de um Usuário",
+      "isDefault": false
+    }
+  ],
+  "unpublishedAppLayout": {
+    "type": "DESKTOP"
+  }
+}

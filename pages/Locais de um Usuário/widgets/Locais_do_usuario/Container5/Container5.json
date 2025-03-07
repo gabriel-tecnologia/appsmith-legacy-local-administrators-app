@@ -1,0 +1,81 @@
+{
+  "animateLoading": true,
+  "backgroundColor": "#FFFFFF",
+  "borderColor": "#E0DEDE",
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "borderWidth": "0",
+  "bottomRow": 136,
+  "boxShadow": "none",
+  "children": [
+    {
+      "bottomRow": 1260,
+      "canExtend": false,
+      "containerStyle": "none",
+      "detachFromLayout": true,
+      "displayName": "Canvas",
+      "dynamicBindingPathList": [],
+      "hideCard": true,
+      "isDeprecated": false,
+      "isLoading": false,
+      "isVisible": true,
+      "key": "bgd08erbjz",
+      "leftColumn": 0,
+      "minHeight": 100,
+      "parentColumnSpace": 1,
+      "parentId": "3ili4ekwtg",
+      "parentRowSpace": 1,
+      "renderMode": "CANVAS",
+      "rightColumn": 458.953125,
+      "topRow": 0,
+      "type": "CANVAS_WIDGET",
+      "version": 1,
+      "widgetId": "xmco9cmxct",
+      "widgetName": "Canvas6"
+    }
+  ],
+  "containerStyle": "card",
+  "displayName": "Container",
+  "dynamicBindingPathList": [
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "isVisible"
+    }
+  ],
+  "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicPropertyPathList": [
+    {
+      "key": "isVisible"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.1977dca3370505e2db3a8e44cfd54907.svg",
+  "isCanvas": true,
+  "isDeprecated": false,
+  "isLoading": false,
+  "isVisible": "{{TableUsers.selectedRow[\"Endereço do Local\"] !== \"\" }}",
+  "key": "rvsdo9cw42",
+  "leftColumn": 0,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 10,
+  "originalBottomRow": 129,
+  "originalTopRow": 10,
+  "parentColumnSpace": 19.123046875,
+  "parentId": "t3hd4dszfb",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "rightColumn": 64,
+  "searchTags": [
+    "div",
+    "parent",
+    "group"
+  ],
+  "shouldScrollContents": true,
+  "topRow": 10,
+  "type": "CONTAINER_WIDGET",
+  "version": 1,
+  "widgetId": "3ili4ekwtg",
+  "widgetName": "Container5"
+}

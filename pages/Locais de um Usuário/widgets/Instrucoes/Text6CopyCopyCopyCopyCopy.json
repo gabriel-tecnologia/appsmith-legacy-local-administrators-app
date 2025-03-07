@@ -1,0 +1,57 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 58,
+  "displayName": "Text",
+  "dynamicBindingPathList": [
+    {
+      "key": "truncateButtonColor"
+    },
+    {
+      "key": "fontFamily"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "textColor"
+    }
+  ],
+  "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicTriggerPathList": [],
+  "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
+  "fontSize": "1.25rem",
+  "fontStyle": "BOLD",
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.97c59b523e6f70ba6f40a10fc2c7c5b5.svg",
+  "isDeprecated": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "rwywqsldqf",
+  "leftColumn": 1,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "originalBottomRow": 58,
+  "originalTopRow": 23,
+  "overflow": "NONE",
+  "parentColumnSpace": 20.0625,
+  "parentId": "6m5pzflyrc",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "rightColumn": 64,
+  "searchTags": [
+    "typography",
+    "paragraph",
+    "label"
+  ],
+  "shouldTruncate": false,
+  "text": "** DICAS E COMENTÁRIOS **\n\n- Utilize os filtros nas tabelas para navegar rapidamente pelos locais ou usuários.\n\n- Lembre de verificar os filtros se não houver dados em uma tabela. Filtros são persistentes entre a troca de locais.\n\n- Além de pesquisar por nome, os filtros podem te ajudar a encontrar usuários por qualquer campo. Por exemplo, digite \"ADMIN\" para listar todos os lugares no qual o usuário é administrador.\n\n- O processo de tornar alguém ADMIN, automaticamente aprovará seu acesso à localidade.\n\n- Não é possível um usuário estar vinculado a uma localidade se ele não tiver nenhum cargo. Se um usuário tem apenas o cargo de ADMIN e tiver esse cargo removido, ele será automaticamente desassociado da localidade. Se usuários desassociados quiserem ter algum acesso, direcione-os ao fluxo comum, atráves do código de acesso da localidade.",
+  "textAlign": "LEFT",
+  "textColor": "{{appsmith.theme.colors.primaryColor}}",
+  "topRow": 23,
+  "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
+  "type": "TEXT_WIDGET",
+  "version": 1,
+  "widgetId": "61xvcosbji",
+  "widgetName": "Text6CopyCopyCopyCopyCopy"
+}

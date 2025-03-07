@@ -1,0 +1,12 @@
+SELECT 
+	iu.legacyUserId as userId, 
+	CONCAT(iu.FirstName," ", 	iu.LastName) as Nome,
+	iu.PhoneNumber as Celular, 
+	iu.Email as Email, 
+	iu.CPF as CPF 
+FROM IdentityUser iu
+WHERE iu.isActive = 1
+AND iu.FirstName IS NOT NULL
+AND iu.CPF IS NOT NULL
+AND iu.Email IS NOT NULL
+ORDER BY iu.CreatedOn

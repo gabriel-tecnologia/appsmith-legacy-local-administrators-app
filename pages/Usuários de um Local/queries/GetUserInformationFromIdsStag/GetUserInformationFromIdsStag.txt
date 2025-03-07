@@ -1,0 +1,9 @@
+SELECT 
+	iu.id as userId, 
+	CONCAT(iu.firstName," ", 	iu.lastName) as Nome,
+	iu.phoneNumber as Celular, 
+	iu.email as Email, 
+	iu.cpf as CPF,
+	iu.legacyuserId
+FROM IdentityUser iu 
+WHERE iu.legacyUserId IN ({{SelectUsersFromLocationStag.data.map(user => user.userId).join(",")}})

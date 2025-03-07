@@ -1,0 +1,5 @@
+{{
+ {
+	 "userId": TableUsers.selectedRow.userId
+ }
+}}

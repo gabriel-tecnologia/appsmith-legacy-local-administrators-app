@@ -1,0 +1,28 @@
+SELECT 
+ 	l.id AS locationId,
+	l.name AS Nome,
+	uls.name as Status,
+	IF(
+			TRIM(COALESCE(l.complement, '') != ''),                #Expression
+		 	CONCAT(l.address,", ",l.number," - ",l.complement,", ",l.neighborhood,", ",l.city),    #True
+		 	CONCAT(l.address,", ",l.number,", ",l.neighborhood,", ",l.city)                        #False 
+		) AS "Endereço do Local",
+	GROUP_CONCAT(DISTINCT lr.name SEPARATOR ", ") AS Cargos,
+  GROUP_CONCAT(DISTINCT lresource.name SEPARATOR ", ") AS "Acesso de Câmeras",
+  GROUP_CONCAT(DISTINCT lp.name SEPARATOR ", ") AS "Acesso de Streams",
+	u.id AS userId
+FROM users_locations ul 
+INNER JOIN user_location_status uls ON ul.statusId = uls.id
+INNER JOIN users u ON ul.userId = u.id
+INNER JOIN locations l ON ul.locationId = l.id
+INNER JOIN users_locations_roles ulr ON ulr.userId = u.id AND ulr.locationId = ul.locationId
+INNER JOIN location_roles lr ON ulr.roleId = lr.id
+LEFT JOIN location_roles_resource_permissions lrrp ON ul.locationId = lrrp.locationId AND lr.id = lrrp.locationRoleId
+LEFT JOIN location_resources_permissions lrp ON lrrp.locationResourcePermissionId = lrp.id
+LEFT JOIN location_resources lresource ON lrp.locationResourceId = lresource.id
+LEFT JOIN location_permissions lp ON lrp.locationPermissionId = lp.id
+WHERE 
+	ul.userId = {{ TableUsers.selectedRow.userId }}
+	AND l.active = 1
+	AND l.enabled = 1
+GROUP BY l.id

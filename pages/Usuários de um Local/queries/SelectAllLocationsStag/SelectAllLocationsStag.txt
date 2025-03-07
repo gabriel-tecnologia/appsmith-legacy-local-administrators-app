@@ -1,0 +1,10 @@
+SELECT 
+ 	l.id AS locationId,
+ 	l.name AS Nome,
+	IF(
+			TRIM(COALESCE(l.complement, '') != ''),                #Expression
+		 	CONCAT(l.address,", ",l.number," - ",l.complement,", ",l.neighborhood,", ",l.city),    #True
+		 	CONCAT(l.address,", ",l.number,", ",l.neighborhood,", ",l.city)                        #False 
+		) AS "Endereço do Local"
+FROM locations_lat.locations l 
+WHERE l.enabled=1 AND l.active=1
