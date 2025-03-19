@@ -31,13 +31,13 @@
     }
   },
   "columnOrder": [
+    "locationId",
     "Nome",
     "xn__Endereo_do_Local_hpb",
     "Cidade",
-    "CEP",
-    "locationId"
+    "CEP"
   ],
-  "columnUpdatedAt": 1685722756815,
+  "columnUpdatedAt": 1742385406105,
   "columnWidthMap": {
     "Nome": 305,
     "status": 85,
@@ -223,8 +223,8 @@
       "isDiscardVisible": true,
       "isEditable": false,
       "isSaveVisible": true,
-      "isVisible": false,
-      "label": "locationId",
+      "isVisible": true,
+      "label": "ID backend",
       "originalId": "locationId",
       "sticky": "",
       "textColor": "",
