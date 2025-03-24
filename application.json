@@ -1,7 +1,7 @@
 {
   "appIsExample": false,
   "appLayout": {
-    "type": "DESKTOP"
+    "type": "FLUID"
   },
   "applicationVersion": 2,
   "collapseInvisibleWidgets": true,
@@ -14,15 +14,11 @@
       "isDefault": true
     },
     {
-      "id": "Under Construction",
-      "isDefault": false
-    },
-    {
       "id": "Locais de um Usuário",
       "isDefault": false
     }
   ],
   "unpublishedAppLayout": {
-    "type": "DESKTOP"
+    "type": "FLUID"
   }
 }

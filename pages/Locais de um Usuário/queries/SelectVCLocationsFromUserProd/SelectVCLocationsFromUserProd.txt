@@ -7,6 +7,7 @@ select l2.name as "Nome do Projeto"
 		 	CONCAT(l.address,", ",l.number," - ",l.complement,", ",l.neighborhood,", ",l.city),    #True
 		 	CONCAT(l.address,", ",l.number,", ",l.neighborhood,", ",l.city)                        #False 
 		) AS "Endereço do Local"
+		, case when l.isSuspended = false then 'SERVIÇO ATIVO' else 'SERVIÇO SUSPENSO' END as "Serviço Suspenso"
 	
 	
 from (SELECT 

@@ -4,7 +4,7 @@
   "borderColor": "#E0DEDE",
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "borderWidth": "1",
-  "bottomRow": 120,
+  "bottomRow": 135,
   "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
   "children": [
     {
@@ -67,7 +67,7 @@
     "group"
   ],
   "shouldScrollContents": true,
-  "topRow": 61,
+  "topRow": 76,
   "type": "CONTAINER_WIDGET",
   "version": 1,
   "widgetId": "fmq1ip89sx",

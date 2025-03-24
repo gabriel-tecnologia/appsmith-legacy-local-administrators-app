@@ -44,7 +44,7 @@
     "Email",
     "Celular"
   ],
-  "columnUpdatedAt": 1739562954462,
+  "columnUpdatedAt": 1742569050174,
   "columnWidthMap": {
     "Acesso_de_Cameras": 230,
     "CPF": 135,
@@ -165,6 +165,7 @@
   "label": "Data",
   "leftColumn": 0,
   "needsHeightForContent": true,
+  "onSearchTextChanged": "{{}}",
   "originalBottomRow": 44,
   "originalTopRow": 16,
   "parentColumnSpace": 20.0625,

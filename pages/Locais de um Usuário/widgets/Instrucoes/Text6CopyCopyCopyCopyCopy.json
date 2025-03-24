@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 58,
+  "bottomRow": 73,
   "displayName": "Text",
   "dynamicBindingPathList": [
     {
@@ -48,7 +48,7 @@
   "text": "** DICAS E COMENTÁRIOS **\n\n- Utilize os filtros nas tabelas para navegar rapidamente pelos locais ou usuários.\n\n- Lembre de verificar os filtros se não houver dados em uma tabela. Filtros são persistentes entre a troca de locais.\n\n- Além de pesquisar por nome, os filtros podem te ajudar a encontrar usuários por qualquer campo. Por exemplo, digite \"ADMIN\" para listar todos os lugares no qual o usuário é administrador.\n\n- O processo de tornar alguém ADMIN, automaticamente aprovará seu acesso à localidade.\n\n- Não é possível um usuário estar vinculado a uma localidade se ele não tiver nenhum cargo. Se um usuário tem apenas o cargo de ADMIN e tiver esse cargo removido, ele será automaticamente desassociado da localidade. Se usuários desassociados quiserem ter algum acesso, direcione-os ao fluxo comum, atráves do código de acesso da localidade.",
   "textAlign": "LEFT",
   "textColor": "{{appsmith.theme.colors.primaryColor}}",
-  "topRow": 23,
+  "topRow": 26,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,
