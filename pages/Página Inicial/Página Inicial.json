@@ -1,12 +1,12 @@
 {
-  "gitSyncId": "63ff66cb69616b7d281fb05d_63ff88739ae68d7a9ed5e18a",
+  "gitSyncId": "64135e4957ec7438b20737b0_3f741170-f389-4f14-b4c1-5d817189a24d",
   "unpublishedPage": {
-    "isHidden": true,
+    "isHidden": false,
     "layouts": [
       {
         "dsl": {
           "backgroundColor": "none",
-          "bottomRow": 1850,
+          "bottomRow": 380,
           "canExtend": true,
           "containerStyle": "none",
           "detachFromLayout": true,
@@ -26,7 +26,7 @@
         }
       }
     ],
-    "name": "Usuários de um Local",
-    "slug": "usuarios-de-um-local"
+    "name": "Página Inicial",
+    "slug": "pagina-inicial"
   }
 }

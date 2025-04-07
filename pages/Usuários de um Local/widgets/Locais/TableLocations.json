@@ -110,8 +110,8 @@
   "leftColumn": 0,
   "needsHeightForContent": true,
   "onRowSelected": "{{SelectUsersFromLocationProd.run(() => GetUserInformationFromIdsProd.run(), () => {})}}",
-  "originalBottomRow": 37,
-  "originalTopRow": 8,
+  "originalBottomRow": 55,
+  "originalTopRow": 26,
   "parentId": "ffuld5y3u4",
   "parentRowSpace": 10,
   "primaryColumns": {

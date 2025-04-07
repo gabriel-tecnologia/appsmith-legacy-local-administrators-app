@@ -11,11 +11,15 @@
   "pages": [
     {
       "id": "Usuários de um Local",
-      "isDefault": true
+      "isDefault": false
     },
     {
       "id": "Locais de um Usuário",
       "isDefault": false
+    },
+    {
+      "id": "Página Inicial",
+      "isDefault": true
     }
   ],
   "unpublishedAppLayout": {
